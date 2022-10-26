@@ -86,7 +86,7 @@ scene.background = environmentMap;
 //   .onChange(updateAllMaterial);
 
 //  Model
-gltfLoader.load('/rolex.glb', (gltf) => {
+gltfLoader.load('/rolex2.glb', (gltf) => {
   watch = gltf.scene;
   gltf.scene.position.y = -0.2;
   gltf.scene.position.x = -0.1;
